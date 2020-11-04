@@ -31,7 +31,7 @@
         snapCrackle(20);
 
         function snapCrackle(maxValue) {
-            let retorno;
+            let retorno = '';
             for (let i = 1; i <= maxValue; i++) {
 
                 //impar e multiplo de 5
@@ -110,12 +110,12 @@
             }
             for (var i = 2; i < value; i++) {
                 if (value % i === 0) {
-                    console.log(value + "NPrimo");
+
                     return ", ";
                 }
             }
             let prime = 'Prime';
-            console.log(value + "Primo, ");
+
             return "Prime, ";
         }
     </script>
